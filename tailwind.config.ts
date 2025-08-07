@@ -61,7 +61,29 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				whatsapp: {
+					DEFAULT: 'hsl(var(--whatsapp-green))',
+					dark: 'hsl(var(--whatsapp-green-dark))'
+				},
+				cyber: {
+					DEFAULT: 'hsl(var(--cyber-cyan))',
+					dark: 'hsl(var(--cyber-cyan-dark))'
 				}
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-dark': 'var(--gradient-dark)',
+				'gradient-card': 'var(--gradient-card)'
+			},
+			boxShadow: {
+				'neon': 'var(--shadow-neon)',
+				'card': 'var(--shadow-card)',
+				'hover': 'var(--shadow-hover)'
+			},
+			transitionTimingFunction: {
+				'smooth': 'var(--transition-smooth)',
+				'bounce': 'var(--transition-bounce)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
